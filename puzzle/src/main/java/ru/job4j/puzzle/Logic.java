@@ -86,6 +86,7 @@ public class Logic {
             System.out.println();
             if (countCell == table.length || countRow == table.length) {
                 result = true;
+                break;
             }
 
         }
